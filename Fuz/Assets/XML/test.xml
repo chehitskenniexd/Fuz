@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MageicNumbers>
+  <Player MoveSpeed="30.00" JumpVelocity="150.00" Gravity="-102.0" SprintVelocity="60.00" SprintDuration="2.00" SprintCooldown="1.00" MaxFireRate="0.5" OverheatDecrement="3.0" ChargedShotDecrement="80.00" FuzFalloffRate="80.00" FuzGrowthRate="40.00" FuzGrowthDelay="60.00" RechargeDelay ="0.50" />
+  <Projectiles FuzVelocity="225.00" ChargedFuzVelocity="40.00" ChargePerSecond="10.00" FuzDamage="0.15" ChargedFuzDamage="40.00" FuzTransferRate="50.00" FuzEnvironmentTimer="60.00" BonusDamage="80.00" ProjectileBaseRadius = "2.0f" />
+  <Powerups>
+	<FuzData BaseRadius="1.00f" StickyRadius="4.5f" FreezeRadius="3.0f" UberRadius="9.0f" StalloneRadius="9.0f" FuzLifetime="5.0f" FuzDamage="0.15f"/>
+    <StickyFuz NumShots="3.00" Damage="0.50" ExplosionRadius="30.00" TriggerRadius="40.00" ContactTimerPlayer="50.00" ContactTimerEnvironment="60.00" />
+    <FreezeFuz NumShots="3.00" Duration="5.00" MovementModifier="50.00" />
+    <FuzShield Duration="20.00" NumHits="60.00" FalloffRate="60.00" Radius="4.5f"/>
+    <HoseFuz Duration="10.00" Damage=".200" Range="30.00" />
+    <FuzBGone Percent="80.00" />
+    <ThermalRadar Duration="10.00" Distance="10.00" />
+    <DoubleSpeed Duration="10.00" SpeedModifier="2.00" />
+    <DoubleFuz Duration="10.00" DamageModifier="2.0" />
+    <UberFuz NumShots="3.00" Radius ="4.5" Damage="0.50" OverheatDecrement="50.00" />
+    <Stallone Damage="1.00" Duration="10.00" MovementModifier="3.00" />
+  </Powerups>
+  <Server SnapshotsPerSecond="1" TicksPerSecond="2" />
+</MageicNumbers>
